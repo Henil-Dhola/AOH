@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    style="@style/SCREEN"
+    tools:context=".UserProfile">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/user"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/user" />
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/user"
+        android:layout_centerHorizontal="true"
+        android:textColor="#0E0101"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+
+
+    <TextView
+        android:id="@+id/txtname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/welcome"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/editxt_log"
+        android:drawableLeft="@drawable/ic_baseline_person_24"
+        android:elevation="3dp"
+        android:hint="  Name"
+        android:padding="15dp"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/txtmobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtname"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="50dp"
+        android:drawableLeft="@drawable/ic_baseline_local_phone_24"
+        android:elevation="3dp"
+        android:background="@drawable/editxt_log"
+        android:hint="  Mobile number"
+        android:padding="15dp"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/txtemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtmobile"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/editxt_log"
+        android:hint="  Email ID"
+        android:padding="15dp"
+        android:drawableLeft="@drawable/ic_baseline_mail_24"
+        android:elevation="3dp"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/logout"
+        android:layout_width="160dp"
+        android:layout_height="55dp"
+        android:layout_below="@id/txtemail"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/edittext"
+        android:gravity="center"
+        android:text="Sign Out"
+        android:textColor="@color/switch_text"
+        android:textSize="20sp" />
+
+    <ProgressBar
+        android:id="@+id/profileprogres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logout"
+        android:layout_centerHorizontal="true"
+        android:foregroundGravity="center"
+        android:visibility="gone" />
+</RelativeLayout>

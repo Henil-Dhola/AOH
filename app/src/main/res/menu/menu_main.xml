@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item android:id="@+id/settings"
+        android:title=""
+        android:icon="@drawable/ic_baseline_settings_24"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/profile"
+        android:title=""
+        android:icon="@drawable/account"
+        app:showAsAction="always"/>
+
+<!--    <item-->
+<!--        android:id="@+id/more"-->
+<!--        android:title=""-->
+<!--        android:icon="@drawable/more_vert"-->
+<!--        app:showAsAction="always">-->
+<!--        <menu>-->
+
+<!--            <item-->
+<!--                android:id="@+id/language"-->
+<!--                android:title="Bookmark"-->
+<!--                android:icon="@drawable/bookmarks"-->
+<!--                app:showAsAction="ifRoom">-->
+
+<!--            </item>-->
+<!--            <item-->
+<!--                android:id="@+id/logout"-->
+<!--                android:title="Logout"-->
+<!--                android:icon="@drawable/ic_baseline_exit_to_app_24"-->
+<!--                app:showAsAction="ifRoom"/>-->
+
+<!--        </menu>-->
+<!--    </item>-->
+
+
+</menu>

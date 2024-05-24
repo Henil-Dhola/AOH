@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AOH</string>
+    <string name="Main_heading">મુખ્ય મથાળું અહીં દર્શાવો મુખ્ય મથાળું અહીં દર્શાવો</string>
+    <string name="Content_body">મુખ્ય સામગ્રી મુખ્ય સામગ્રી</string>
+    <string name="author">હેનીલ ધોલા દ્વારા</string>
+    <string name="publish">પ્રકાશિત મુ</string>
+    <string name="email">ઈમેલ આઈડી</string>
+    <string name="password">પાસવર્ડ</string>
+    <string name="login">પ્રવેશ કરો</string>
+    <string name="forget">પાસવર્ડ ભૂલી ગયા છો?</string>
+    <string name="register">નોંધણી કરો?</string>
+    <string name="name">નામ દાખલ કરો</string>
+    <string name="mobile">મોબાઇલ દાખલ કરો</string>
+    <string name="reg">નોંધણી</string>
+    <string name="save">સાચવેલા સમાચાર</string>
+    <string name="delete">બધું કાઢી નાંખો</string>
+    <string name="no_news">કોઈ સમાચાર સાચવ્યા નથી.</string>
+    <string name="save_news">તમારા મનપસંદ સમાચાર સાચવો અને તેને અહીં વિશ્વમાં ગમે ત્યાં અને ગમે ત્યારે વાંચો.</string>
+    <string name="title">શીર્ષક</string>
+    <string name="yes_dialog">Yes</string>
+    <string name="no_dialog">No</string>
+</resources>

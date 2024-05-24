@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AOH</string>
+    <string name="Main_heading">Main heading display here main heading display here</string>
+    <string name="Content_body">Main content main content</string>
+    <string name="author">By Henil Dhola</string>
+    <string name="publish">Published At</string>
+    <string name="email">Email ID</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="forget">Forget Password?</string>
+    <string name="register">Register?</string>
+    <string name="name">Enter name</string>
+    <string name="mobile">Enter Mobile</string>
+    <string name="reg">Registration</string>
+    <string name="save">Saved News</string>
+    <string name="delete">Delete All</string>
+    <string name="no_news">No news saved.</string>
+    <string name="save_news">Save your favorite news and read it anywhere and anytime in the world over here.</string>
+    <string name="title">Title</string>
+    <string name="yes_dialog">Yes</string>
+    <string name="no_dialog">No</string>
+</resources>
